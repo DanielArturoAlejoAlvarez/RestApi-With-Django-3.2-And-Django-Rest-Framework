@@ -26,9 +26,12 @@ Using Postman, Insomnia, Talend API Tester,etc.
 
 ## Usage
 
-```html
-$ git clone https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.2-And-Django-Rest-Framework.git [NAME APP] $ pipenv shell 
-$ pipenv python src/app.py
+```shell
+$ git clone https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.2-And-Django-Rest-Framework.git [NAME 
+$ source env/bin/activate
+$ python manage.py makemigrations
+$ pthyon manage.py migrate
+$ python manage.py runserver
 ```
 
 Follow the following steps and you're good to go! Important:
