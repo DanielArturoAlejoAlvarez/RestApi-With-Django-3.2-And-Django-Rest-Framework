@@ -1,4 +1,4 @@
-# RestApi-With-Django-3.8.2-And-Django-Rest-Framework
+# RestApi-With-Django-3.2-And-Django-Rest-Framework
 
 ## Description
 
@@ -25,7 +25,7 @@ Using Postman, Insomnia, Talend API Tester,etc.
 ## Usage
 
 ```html
-$ git clone https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.8.2-And-Django-Rest-Framework.git [NAME APP] $ pipenv shell 
+$ git clone https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.2-And-Django-Rest-Framework.git [NAME APP] $ pipenv shell 
 $ pipenv python src/app.py
 ```
 
@@ -63,7 +63,7 @@ DATABASE_URI='mysql+pymysql://{}:{}@{}/{}'.format(DB_USER,DB_PASSWORD,DB_HOST,DB
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.8.2-And-Django-Rest-Framework. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/DanielArturoAlejoAlvarez/RestApi-With-Django-3.2-And-Django-Rest-Framework. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
