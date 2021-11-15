@@ -1,9 +1,13 @@
 from django.db import models
 
-from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 
-class UserProfileManager():
-    pass
+class UserProfileManager(BaseUserManager):
+    def create_user(self, email, name, password=None):
+        pass
+
+    def create_superuser(self, email, name, password):
+        pass
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
