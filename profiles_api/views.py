@@ -44,4 +44,7 @@ class HelloAPIView(APIView):
     def put(self, request, pk=None):
         return Response({'method': 'PUT'})
 
+    def patch(self, request, pk=None):
+        return Response({'method': 'PATCH'})
+
 
