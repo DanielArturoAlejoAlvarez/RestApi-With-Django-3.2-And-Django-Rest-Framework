@@ -47,4 +47,7 @@ class HelloAPIView(APIView):
     def patch(self, request, pk=None):
         return Response({'method': 'PATCH'})
 
+    def delete(self, request, pk=None):
+        return Response({'method': 'DELETE'})
+
 
